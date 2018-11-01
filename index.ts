@@ -1,0 +1,1 @@
+export { templatePattern } from './src'
