@@ -12,6 +12,7 @@ const buildTemplateEntities: BuildEntitiesFunction =
         const exampleOneTemplateEntity: Entity = {
             part: exampleOneTemplatePart,
             timeType: TimeType.ATOMIC,
+            voiceSpec: { voiceType: VoiceType.SAMPLE, timbre: SampleName.VIOLIN },
         }
         const exampleTwoTemplateEntity: Entity = {
             part: exampleTwoTemplatePart,
