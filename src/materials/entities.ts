@@ -1,13 +1,13 @@
 import { BuildEntitiesFunction, Entity, SampleName, TimeType, VoiceType } from '../../../../src'
 import { PatternSpec } from '../../../types'
-import { buildTemplateParts } from './parts'
+import { buildParts } from './parts'
 
 const buildEntities: BuildEntitiesFunction =
     (patternSpec: PatternSpec): Entity[] => {
         const {
             exampleOneTemplatePart,
             exampleTwoTemplatePart,
-        } = buildTemplateParts(patternSpec.patternDurationScalar)
+        } = buildParts(patternSpec.patternDurationScalar)
 
         const exampleOneTemplateEntity: Entity = {
             part: exampleOneTemplatePart,

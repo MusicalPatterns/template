@@ -1,16 +1,16 @@
 import { DictionaryOf, Part, Scalar } from '../../../../src'
-import { buildTemplateExemplars } from '../custom'
-import { buildTemplateNoteSpec } from './notes'
+import { buildExemplars } from '../custom'
+import { buildNoteSpec } from './notes'
 
-const buildTemplateParts: (patternDurationScalar: Scalar) => DictionaryOf<Part> =
+const buildParts: (patternDurationScalar: Scalar) => DictionaryOf<Part> =
     (patternDurationScalar: Scalar): DictionaryOf<Part> => {
         const {
             exampleOneTemplateExemplars,
             exampleTwoTemplateExemplars,
-        } = buildTemplateExemplars(patternDurationScalar)
+        } = buildExemplars(patternDurationScalar)
 
-        const exampleOneTemplatePart: Part = exampleOneTemplateExemplars.map(buildTemplateNoteSpec)
-        const exampleTwoTemplatePart: Part = exampleTwoTemplateExemplars.map(buildTemplateNoteSpec)
+        const exampleOneTemplatePart: Part = exampleOneTemplateExemplars.map(buildNoteSpec)
+        const exampleTwoTemplatePart: Part = exampleTwoTemplateExemplars.map(buildNoteSpec)
 
         return {
             exampleOneTemplatePart,
@@ -19,5 +19,5 @@ const buildTemplateParts: (patternDurationScalar: Scalar) => DictionaryOf<Part> 
     }
 
 export {
-    buildTemplateParts,
+    buildParts,
 }

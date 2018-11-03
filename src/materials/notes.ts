@@ -7,7 +7,7 @@ import {
 } from '../../../../src'
 import { Exemplar, from as templateFrom } from '../nominal'
 
-const buildTemplateNoteSpec: (exemplar: Exemplar) => NoteSpec =
+const buildNoteSpec: (exemplar: Exemplar) => NoteSpec =
     (exemplar: Exemplar): NoteSpec =>
         ({
             durationSpec: {
@@ -26,5 +26,5 @@ const buildTemplateNoteSpec: (exemplar: Exemplar) => NoteSpec =
         })
 
 export {
-    buildTemplateNoteSpec,
+    buildNoteSpec,
 }

@@ -1,13 +1,13 @@
 import { BuildScalesFunction, buildStandardScales, Scale, scaleFromScalarsAndScalar } from '../../../../src'
 import { PatternSpec } from '../../../types'
-import { buildTemplateScalars } from './scalars'
+import { buildScalars } from './scalars'
 
 const buildScales: BuildScalesFunction =
     (patternSpec: PatternSpec): Scale[] => {
         const { flatDurationsScale } = buildStandardScales()
         const {
             exampleOneTemplateScalars,
-        } = buildTemplateScalars()
+        } = buildScalars()
 
         return [
             flatDurationsScale,

@@ -1,7 +1,7 @@
 import { buildStandardScales, DictionaryOf, from, Scalar, to } from '../../../../src'
 import { exampleUtility } from '../utilities'
 
-const buildTemplateScalars: () => DictionaryOf<Scalar[]> =
+const buildScalars: () => DictionaryOf<Scalar[]> =
     (): DictionaryOf<Scalar[]> => {
         const { subharmonicSeriesScale } = buildStandardScales()
 
@@ -16,5 +16,5 @@ const buildTemplateScalars: () => DictionaryOf<Scalar[]> =
     }
 
 export {
-    buildTemplateScalars,
+    buildScalars,
 }

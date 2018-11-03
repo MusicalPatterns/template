@@ -1,1 +1,1 @@
-export { buildTemplateExemplars } from './examplars'
+export { buildExemplars } from './examplars'

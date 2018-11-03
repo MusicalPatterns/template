@@ -1,11 +1,11 @@
 import { NotePropertySpec, NoteSpec, to } from '../../../../../src/indexForTest'
-import { buildTemplateNoteSpec, Exemplar, to as templateTo } from '../../../src/indexForTest'
+import { buildNoteSpec, Exemplar, to as templateTo } from '../../../src/indexForTest'
 
 describe('template notes', () => {
     let noteSpec: NoteSpec
     beforeEach(() => {
         const testExemplar: Exemplar = templateTo.Exemplar(7)
-        noteSpec = buildTemplateNoteSpec(testExemplar)
+        noteSpec = buildNoteSpec(testExemplar)
     })
 
     describe('duration', () => {
