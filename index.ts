@@ -1,1 +1,1 @@
-export { templatePattern } from './src'
+export { pattern } from './src'

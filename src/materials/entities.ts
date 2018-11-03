@@ -2,7 +2,7 @@ import { BuildEntitiesFunction, Entity, SampleName, TimeType, VoiceType } from '
 import { PatternSpec } from '../../../types'
 import { buildTemplateParts } from './parts'
 
-const buildTemplateEntities: BuildEntitiesFunction =
+const buildEntities: BuildEntitiesFunction =
     (patternSpec: PatternSpec): Entity[] => {
         const {
             exampleOneTemplatePart,
@@ -27,5 +27,5 @@ const buildTemplateEntities: BuildEntitiesFunction =
     }
 
 export {
-    buildTemplateEntities,
+    buildEntities,
 }

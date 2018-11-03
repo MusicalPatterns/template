@@ -6,4 +6,5 @@ export {
     to,
 } from './nominal/indexForTest'
 export { exampleUtility } from './utilities/indexForTest'
-export { buildTemplateNoteSpec } from './materials/indexForTest'
+export { buildTemplateNoteSpec, buildEntities, buildScales } from './materials/indexForTest'
+export { patternSpec } from './patterns'

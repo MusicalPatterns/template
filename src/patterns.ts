@@ -2,11 +2,11 @@ import { DEFAULT_ATOMIC_TIME_TYPE_DURATION_SCALAR } from '../../../src'
 import { PatternId } from '../../patternId'
 import { Pattern, PatternMaterial, PatternMetadata, PatternSpec } from '../../types'
 import { TEMPLATE_PITCH_SCALAR } from './constants'
-import { buildTemplateEntities, buildTemplateScales } from './materials'
+import { buildEntities, buildScales } from './materials'
 
 const templatePatternMaterial: PatternMaterial = {
-    buildEntitiesFunction: buildTemplateEntities,
-    buildScalesFunction: buildTemplateScales,
+    buildEntitiesFunction: buildEntities,
+    buildScalesFunction: buildScales,
 }
 
 const templatePatternMetadata: PatternMetadata = {
@@ -14,18 +14,19 @@ const templatePatternMetadata: PatternMetadata = {
     formattedName: 'Template Pattern',
 }
 
-const templatePatternSpec: PatternSpec = {
+const patternSpec: PatternSpec = {
     patternDurationScalar: DEFAULT_ATOMIC_TIME_TYPE_DURATION_SCALAR,
     patternPitchScalar: TEMPLATE_PITCH_SCALAR,
 }
 
-const templatePattern: Pattern = {
+const pattern: Pattern = {
     material: templatePatternMaterial,
     metadata: templatePatternMetadata,
     patternId: PatternId.TEMPLATE,
-    spec: templatePatternSpec,
+    spec: patternSpec,
 }
 
 export {
-    templatePattern,
+    pattern,
+    patternSpec,
 }
