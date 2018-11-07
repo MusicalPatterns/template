@@ -12,6 +12,7 @@ const templatePatternMaterial: PatternMaterial = {
 const templatePatternMetadata: PatternMetadata = {
     description: 'follow this template structure for your patterns',
     formattedName: 'Template Pattern',
+    musicalIdeaIllustrated: 'nothing',
 }
 
 const patternSpec: PatternSpec = {
