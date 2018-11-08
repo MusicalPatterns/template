@@ -9,10 +9,20 @@ const buildScales: BuildScalesFunction =
             exampleOneTemplateScalars,
         } = buildScalars()
 
+        const gainScale: Scale = flatDurationsScale
+        const durationsScale: Scale = scaleFromScalarsAndScalar(
+            flatDurationsScale.scalars,
+            patternSpec.patternDurationScalar,
+        )
+        const pitchesScale: Scale = scaleFromScalarsAndScalar(
+            exampleOneTemplateScalars,
+            patternSpec.patternPitchScalar,
+        )
+
         return [
-            flatDurationsScale,
-            scaleFromScalarsAndScalar(flatDurationsScale.scalars, patternSpec.patternDurationScalar),
-            scaleFromScalarsAndScalar(exampleOneTemplateScalars, patternSpec.patternPitchScalar),
+            gainScale,
+            durationsScale,
+            pitchesScale,
         ]
     }
 
