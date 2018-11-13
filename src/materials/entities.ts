@@ -1,5 +1,5 @@
-import { BuildEntitiesFunction, Entity, SampleName, TimeType, VoiceType } from '../../../../src'
-import { PatternSpec } from '../../../types'
+import { Entity, SampleName, TimeType, VoiceType } from '../../../../src'
+import { BuildEntitiesFunction, PatternSpec } from '../../../types'
 import { buildParts } from './parts'
 
 const buildEntities: BuildEntitiesFunction =
