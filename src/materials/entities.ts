@@ -1,4 +1,5 @@
-import { Entity, SampleName, TimeType, VoiceType } from '../../../../src'
+import { SampleName, TimeType, VoiceType } from '@musical-patterns/performer'
+import { Entity } from '../../../../src'
 import { BuildEntitiesFunction, PatternSpec } from '../../../types'
 import { buildParts } from './parts'
 
