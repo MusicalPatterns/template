@@ -288,7 +288,6 @@
           }
         }
       ],
-      "timeType": "atomic",
       "voiceSpec": {
         "voiceType": "sample",
         "timbre": "violin"
@@ -298,16 +297,16 @@
       "part": [
         {
           "durationSpec": {
-            "scalar": 7,
+            "scalar": 175,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 7,
+            "index": 175,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 7,
+            "scalar": 175,
             "scaleIndex": 1
           }
         },
@@ -328,31 +327,31 @@
         },
         {
           "durationSpec": {
-            "scalar": 6,
+            "scalar": 150,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 6,
+            "index": 150,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 6,
+            "scalar": 150,
             "scaleIndex": 1
           }
         },
         {
           "durationSpec": {
-            "scalar": 8,
+            "scalar": 200,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 8,
+            "index": 200,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 8,
+            "scalar": 200,
             "scaleIndex": 1
           }
         },
@@ -373,81 +372,80 @@
         },
         {
           "durationSpec": {
-            "scalar": 7,
+            "scalar": 175,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 7,
+            "index": 175,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 7,
+            "scalar": 175,
             "scaleIndex": 1
           }
         },
         {
           "durationSpec": {
-            "scalar": 3,
+            "scalar": 75,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 3,
+            "index": 75,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 3,
+            "scalar": 75,
             "scaleIndex": 1
           }
         },
         {
           "durationSpec": {
-            "scalar": 4,
+            "scalar": 100,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 4,
+            "index": 100,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 4,
+            "scalar": 100,
             "scaleIndex": 1
           }
         },
         {
           "durationSpec": {
-            "scalar": 2,
+            "scalar": 50,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 2,
+            "index": 50,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 2,
+            "scalar": 50,
             "scaleIndex": 1
           }
         },
         {
           "durationSpec": {
-            "scalar": 1,
+            "scalar": 25,
             "scaleIndex": 1
           },
           "pitchSpec": {
-            "index": 1,
+            "index": 25,
             "scaleIndex": 2
           },
           "sustainSpec": {
             "offset": -0.1,
-            "scalar": 1,
+            "scalar": 25,
             "scaleIndex": 1
           }
         }
       ],
-      "timeType": "atomic",
       "voiceSpec": {
         "voiceType": "sample",
         "timbre": "piano"
@@ -461,7 +459,7 @@
       ]
     },
     {
-      "scalar": 1,
+      "scalar": 25,
       "scalars": [
         1,
         2,
