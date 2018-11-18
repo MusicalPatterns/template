@@ -11,11 +11,11 @@ const buildEntities: BuildEntitiesFunction =
         } = buildParts(patternSpec.patternDurationScalar)
 
         const exampleOneTemplateEntity: Entity = {
-            part: exampleOneTemplatePart,
+            partSpec: exampleOneTemplatePart,
             voiceSpec: { voiceType: VoiceType.SAMPLE, timbre: SampleName.VIOLIN },
         }
         const exampleTwoTemplateEntity: Entity = {
-            part: exampleTwoTemplatePart,
+            partSpec: exampleTwoTemplatePart,
             voiceSpec: { voiceType: VoiceType.SAMPLE, timbre: SampleName.PIANO },
         }
 
