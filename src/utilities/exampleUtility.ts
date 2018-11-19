@@ -1,4 +1,5 @@
-import { applyPower, from, Power, Scalar, to } from '../../../../src'
+import { from, Power, Scalar, to } from '@musical-patterns/utilities'
+import { applyPower } from '../../../../src'
 import { EXAMPLE_CONSTANT } from './constants'
 
 const exampleUtility: (power: Power) => Scalar =

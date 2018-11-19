@@ -1,4 +1,4 @@
-import { Power, to } from '../../../../../src/indexForTest'
+import { Power, to } from '@musical-patterns/utilities'
 import { exampleUtility } from '../../../src/indexForTest'
 
 describe('example utility', () => {
