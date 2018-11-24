@@ -174,8 +174,8 @@
       }
     ],
     "voiceSpec": {
-      "voiceType": "sample",
-      "timbre": "violin"
+      "voiceType": "SAMPLE",
+      "timbre": "VIOLIN"
     }
   },
   {
@@ -272,8 +272,8 @@
       }
     ],
     "voiceSpec": {
-      "voiceType": "sample",
-      "timbre": "piano"
+      "voiceType": "SAMPLE",
+      "timbre": "PIANO"
     }
   }
 ]
