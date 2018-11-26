@@ -1,4 +1,4 @@
-import { Scalar, to } from '@musical-patterns/utilities'
+import { Scalar, to } from '@musical-patterns/shared'
 import { buildExemplars, Exemplar, to as templateTo } from '../../../src/indexForTest'
 
 describe('build template examples', () => {

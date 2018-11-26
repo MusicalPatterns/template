@@ -1,4 +1,4 @@
-import { DictionaryOf, from, Index, Scalar } from '@musical-patterns/utilities'
+import { DictionaryOf, from, Index, Scalar } from '@musical-patterns/shared'
 import { buildBlocks } from '../materials'
 import { Exemplar, to as templateTo } from '../nominal'
 import { EXAMPLE_CUSTOM_CONSTANT } from './constants'
