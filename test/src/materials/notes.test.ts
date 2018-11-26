@@ -1,5 +1,5 @@
 import { to } from '@musical-patterns/utilities'
-import { NotePropertySpec, NoteSpec } from '../../../../../src/indexForTest'
+import { NotePropertySpec, NoteSpec } from '../../../../../indexForTest'
 import { buildNoteSpec, Exemplar, to as templateTo } from '../../../src/indexForTest'
 
 describe('template notes', () => {
