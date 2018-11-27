@@ -1,5 +1,6 @@
 import { DictionaryOf, from, Index, Scalar } from '@musical-patterns/shared'
-import { buildBlocks } from '../materials'
+// tslint:disable-next-line:no-reaching-imports
+import { buildBlocks } from '../materials/blocks'
 import { Exemplar, to as templateTo } from '../nominal'
 import { EXAMPLE_CUSTOM_CONSTANT } from './constants'
 
