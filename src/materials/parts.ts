@@ -1,5 +1,4 @@
-import { DictionaryOf, Scalar } from '@musical-patterns/shared'
-import { PartSpec } from '../../../../compile'
+import { DictionaryOf, PartSpec, Scalar } from '@musical-patterns/shared'
 import { buildExemplars } from '../custom'
 import { buildNoteSpec } from './notes'
 

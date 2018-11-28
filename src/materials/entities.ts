@@ -1,6 +1,4 @@
-import { SampleName, VoiceType } from '@musical-patterns/performer'
-import { Entity } from '../../../../compile'
-import { BuildEntitiesFunction, PatternSpec } from '../../../types'
+import { BuildEntitiesFunction, Entity, PatternSpec, SampleName, VoiceType } from '@musical-patterns/shared'
 import { buildParts } from './parts'
 
 const buildEntities: BuildEntitiesFunction =
