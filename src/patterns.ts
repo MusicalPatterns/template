@@ -1,5 +1,5 @@
 import { PatternId } from '@musical-patterns/registry'
-import { Pattern, PatternMaterial, PatternMetadata, PatternSpec } from '@musical-patterns/shared'
+import { Pattern, PatternMaterial, PatternMetadata, PatternSpec } from '@musical-patterns/utilities'
 import { TEMPLATE_DURATION_SCALAR, TEMPLATE_PITCH_SCALAR } from './constants'
 import { buildEntities, buildScales } from './materials'
 

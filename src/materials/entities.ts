@@ -1,4 +1,4 @@
-import { BuildEntitiesFunction, Entity, PatternSpec, SampleName, VoiceType } from '@musical-patterns/shared'
+import { BuildEntitiesFunction, Entity, PatternSpec, SampleName, VoiceType } from '@musical-patterns/utilities'
 import { buildParts } from './parts'
 
 const buildEntities: BuildEntitiesFunction =

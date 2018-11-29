@@ -1,4 +1,4 @@
-import { NoteSpec, to } from '@musical-patterns/shared'
+import { NoteSpec, to } from '@musical-patterns/utilities'
 import {
     DEFAULT_DURATIONS_SCALE_INDEX,
     DEFAULT_OFFSET_FOR_ALMOST_FULL_SUSTAIN,

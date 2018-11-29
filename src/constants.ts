@@ -1,6 +1,6 @@
 // tslint:disable:no-magic-numbers
 
-import { Scalar, to } from '@musical-patterns/shared'
+import { Scalar, to } from '@musical-patterns/utilities'
 
 const TEMPLATE_DURATION_SCALAR: Scalar = to.Scalar(175)
 const TEMPLATE_PITCH_SCALAR: Scalar = to.Scalar(255)

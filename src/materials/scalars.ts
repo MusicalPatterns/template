@@ -1,4 +1,4 @@
-import { DictionaryOf, from, Scalar, to } from '@musical-patterns/shared'
+import { DictionaryOf, from, Scalar, to } from '@musical-patterns/utilities'
 import { buildStandardScales } from '../../../../patternMaterial'
 import { exampleUtility } from '../utilities'
 
