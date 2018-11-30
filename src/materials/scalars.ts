@@ -1,5 +1,5 @@
+import { buildStandardScales } from '@musical-patterns/pattern'
 import { DictionaryOf, from, Scalar, to } from '@musical-patterns/utilities'
-import { buildStandardScales } from '../../../../patternMaterial'
 import { exampleUtility } from '../utilities'
 
 const buildScalars: () => DictionaryOf<Scalar[]> =

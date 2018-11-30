@@ -1,9 +1,10 @@
-import { NoteSpec, to } from '@musical-patterns/utilities'
+import { NoteSpec } from '@musical-patterns/compiler'
 import {
     DEFAULT_DURATIONS_SCALE_INDEX,
     DEFAULT_OFFSET_FOR_ALMOST_FULL_SUSTAIN,
     DEFAULT_PITCH_SCALE_INDEX,
-} from '../../../../patternMaterial'
+} from '@musical-patterns/pattern'
+import { to } from '@musical-patterns/utilities'
 import { Exemplar, from as templateFrom } from '../nominal'
 
 const buildNoteSpec: (exemplar: Exemplar) => NoteSpec =

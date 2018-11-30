@@ -1,7 +1,7 @@
 // tslint:disable:no-magic-numbers
 
+import { Block, to } from '@musical-patterns/pattern'
 import { DictionaryOf } from '@musical-patterns/utilities'
-import { Block, to } from '../../../../nominal'
 
 const buildBlocks: () => DictionaryOf<Block> =
     (): DictionaryOf<Block> => {
