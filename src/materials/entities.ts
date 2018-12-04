@@ -1,6 +1,5 @@
-import { BuildEntitiesFunction, Entity } from '@musical-patterns/compiler'
+import { BuildEntitiesFunction, Entity, TimbreName } from '@musical-patterns/compiler'
 import { PatternSpec } from '@musical-patterns/pattern'
-import { SampleName, VoiceType } from '@musical-patterns/performer'
 import { buildParts } from './parts'
 
 const buildEntities: BuildEntitiesFunction =
@@ -12,11 +11,11 @@ const buildEntities: BuildEntitiesFunction =
 
         const exampleOneTemplateEntity: Entity = {
             partSpec: exampleOneTemplatePart,
-            voiceSpec: { voiceType: VoiceType.SAMPLE, timbre: SampleName.VIOLIN },
+            timbreName: TimbreName.VIOLIN,
         }
         const exampleTwoTemplateEntity: Entity = {
             partSpec: exampleTwoTemplatePart,
-            voiceSpec: { voiceType: VoiceType.SAMPLE, timbre: SampleName.PIANO },
+            timbreName: TimbreName.PIANO,
         }
 
         return [
