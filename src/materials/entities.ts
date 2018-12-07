@@ -10,11 +10,11 @@ const buildEntities: BuildEntitiesFunction =
         } = buildParts(patternSpec.patternDurationScalar)
 
         const exampleOneTemplateEntity: Entity = {
-            partSpec: exampleOneTemplatePart,
+            noteSpecs: exampleOneTemplatePart,
             timbreName: TimbreName.VIOLIN,
         }
         const exampleTwoTemplateEntity: Entity = {
-            partSpec: exampleTwoTemplatePart,
+            noteSpecs: exampleTwoTemplatePart,
             timbreName: TimbreName.PIANO,
         }
 
