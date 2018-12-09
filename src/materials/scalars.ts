@@ -6,7 +6,8 @@ const buildScalars: () => DictionaryOf<Scalar[]> =
     (): DictionaryOf<Scalar[]> => {
         const { subharmonicSeriesScale } = buildStandardScales()
 
-        const exampleOneTemplateScalars: Scalar[] = subharmonicSeriesScale.scalars
+        const subharmonicSeriesScalars: Scalar[] = subharmonicSeriesScale.scalars || []
+        const exampleOneTemplateScalars: Scalar[] = subharmonicSeriesScalars
             .map(from.Scalar)
             .map(to.Power)
             .map(exampleUtility)
