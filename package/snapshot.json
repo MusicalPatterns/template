@@ -212,7 +212,7 @@
       }
     ],
     "voiceSpec": {
-      "timbre": "VIOLIN",
+      "timbreName": "VIOLIN",
       "voiceType": "SAMPLE"
     }
   },
@@ -330,7 +330,7 @@
       }
     ],
     "voiceSpec": {
-      "timbre": "PIANO",
+      "timbreName": "PIANO",
       "voiceType": "SAMPLE"
     }
   }
