@@ -4,8 +4,8 @@ import { buildBlocks } from '../materials/blocks'
 import { Exemplar, to as templateTo } from '../nominal'
 import { EXAMPLE_CUSTOM_CONSTANT } from './constants'
 
-const buildExemplars: (patternDurationScalar: Scalar) => DictionaryOf<Exemplar[]> =
-    (patternDurationScalar: Scalar): DictionaryOf<Exemplar[]> => {
+const buildExemplars: () => DictionaryOf<Exemplar[]> =
+    (): DictionaryOf<Exemplar[]> => {
         const {
             exampleOneTemplateBlock,
             exampleTwoTemplateBlock,
@@ -18,7 +18,7 @@ const buildExemplars: (patternDurationScalar: Scalar) => DictionaryOf<Exemplar[]
 
         const exampleTwoTemplateExemplars: Exemplar[] = exampleTwoTemplateBlock.map(
             (blockElement: Index): Exemplar =>
-                templateTo.Exemplar(from.Index(blockElement) * from.Scalar(patternDurationScalar)),
+                templateTo.Exemplar(from.Index(blockElement)),
         )
 
         return {

@@ -1,18 +1,16 @@
 import { BuildEntitiesFunction, Entity, TimbreNameEnum } from '@musical-patterns/compiler'
-import { PatternSpec } from '@musical-patterns/pattern'
-import { to } from '@musical-patterns/utilities'
 import { buildParts } from './parts'
 
 const buildEntities: BuildEntitiesFunction =
-    (patternSpec: PatternSpec): Entity[] => {
+    (): Entity[] => {
         const {
             exampleOneTemplatePart,
             exampleTwoTemplatePart,
-        } = buildParts(patternSpec.patternDurationScalar || to.Scalar(1))
+        } = buildParts()
 
         const exampleOneTemplateEntity: Entity = {
             noteSpecs: exampleOneTemplatePart,
-            timbreName: TimbreNameEnum.VIOLIN,
+            timbreName: TimbreNameEnum.SAWTOOTH,
         }
         const exampleTwoTemplateEntity: Entity = {
             noteSpecs: exampleTwoTemplatePart,
