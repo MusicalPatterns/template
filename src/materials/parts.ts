@@ -6,16 +6,16 @@ import { buildNoteSpec } from './notes'
 const buildParts: () => DictionaryOf<NoteSpec[]> =
     (): DictionaryOf<NoteSpec[]> => {
         const {
-            exampleOneTemplateExemplars,
-            exampleTwoTemplateExemplars,
+            firstExemplars,
+            secondExemplars,
         } = buildExemplars()
 
-        const exampleOneTemplatePart: NoteSpec[] = exampleOneTemplateExemplars.map(buildNoteSpec)
-        const exampleTwoTemplatePart: NoteSpec[] = exampleTwoTemplateExemplars.map(buildNoteSpec)
+        const firstPart: NoteSpec[] = firstExemplars.map(buildNoteSpec)
+        const secondPart: NoteSpec[] = secondExemplars.map(buildNoteSpec)
 
         return {
-            exampleOneTemplatePart,
-            exampleTwoTemplatePart,
+            firstPart,
+            secondPart,
         }
     }
 

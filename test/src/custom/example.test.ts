@@ -3,9 +3,9 @@ import { buildExemplars, Exemplar, to as templateTo } from '../../../src/indexFo
 describe('build template examples', () => {
     describe('example one', () => {
         it('moduluses the first block against three', () => {
-            const { exampleOneTemplateExemplars } = buildExemplars()
+            const { firstExemplars } = buildExemplars()
 
-            exampleOneTemplateExemplars.forEach((exemplar: Exemplar): void => {
+            firstExemplars.forEach((exemplar: Exemplar): void => {
                 expect(exemplar)
                     .toBeLessThan(3)
             })
@@ -14,9 +14,9 @@ describe('build template examples', () => {
 
     describe('example two', () => {
         it('multiplies the second block by the pattern duration scalar', () => {
-            const { exampleTwoTemplateExemplars } = buildExemplars()
+            const { secondExemplars } = buildExemplars()
 
-            expect(exampleTwoTemplateExemplars)
+            expect(secondExemplars)
                 .toEqual([ 7, 0, 6, 8, 0, 7, 3, 4, 2, 1 ].map(templateTo.Exemplar))
         })
     })

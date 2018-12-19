@@ -4,22 +4,22 @@ import { buildParts } from './parts'
 const buildEntities: BuildEntitiesFunction =
     (): Entity[] => {
         const {
-            exampleOneTemplatePart,
-            exampleTwoTemplatePart,
+            firstPart,
+            secondPart,
         } = buildParts()
 
-        const exampleOneTemplateEntity: Entity = {
-            noteSpecs: exampleOneTemplatePart,
+        const exampleOneEntity: Entity = {
+            noteSpecs: firstPart,
             timbreName: TimbreNameEnum.SAWTOOTH,
         }
-        const exampleTwoTemplateEntity: Entity = {
-            noteSpecs: exampleTwoTemplatePart,
+        const exampleTwoEntity: Entity = {
+            noteSpecs: secondPart,
             timbreName: TimbreNameEnum.PIANO,
         }
 
         return [
-            exampleOneTemplateEntity,
-            exampleTwoTemplateEntity,
+            exampleOneEntity,
+            exampleTwoEntity,
         ]
     }
 

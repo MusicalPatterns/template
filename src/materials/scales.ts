@@ -7,7 +7,7 @@ const buildScales: BuildScalesFunction =
     (patternSpec: PatternSpec): Scale[] => {
         const { nonScale, flatDurationsScale } = buildStandardScales()
         const {
-            exampleOneTemplateScalars,
+            exampleScalars,
         } = buildScalars()
 
         const gainScale: Scale = nonScale
@@ -19,7 +19,7 @@ const buildScales: BuildScalesFunction =
         const pitchesScale: Scale = {
             offset: patternSpec.patternPitchOffset || to.Offset(0),
             scalar: patternSpec.patternPitchScalar || to.Scalar(1),
-            scalars: exampleOneTemplateScalars,
+            scalars: exampleScalars,
         }
 
         return [

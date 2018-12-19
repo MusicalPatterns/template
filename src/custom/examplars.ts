@@ -7,23 +7,23 @@ import { EXAMPLE_CUSTOM_CONSTANT } from './constants'
 const buildExemplars: () => DictionaryOf<Exemplar[]> =
     (): DictionaryOf<Exemplar[]> => {
         const {
-            exampleOneTemplateBlock,
-            exampleTwoTemplateBlock,
+            firstBlock,
+            secondBlock,
         } = buildBlocks()
 
-        const exampleOneTemplateExemplars: Exemplar[] = exampleOneTemplateBlock.map(
+        const firstExemplars: Exemplar[] = firstBlock.map(
             (blockElement: Index): Exemplar =>
                 templateTo.Exemplar(from.Index(blockElement) % EXAMPLE_CUSTOM_CONSTANT),
         )
 
-        const exampleTwoTemplateExemplars: Exemplar[] = exampleTwoTemplateBlock.map(
+        const secondExemplars: Exemplar[] = secondBlock.map(
             (blockElement: Index): Exemplar =>
                 templateTo.Exemplar(from.Index(blockElement)),
         )
 
         return {
-            exampleOneTemplateExemplars,
-            exampleTwoTemplateExemplars,
+            firstExemplars,
+            secondExemplars,
         }
     }
 

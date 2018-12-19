@@ -4,18 +4,18 @@ import { to } from '@musical-patterns/utilities'
 import { TEMPLATE_DURATION_SCALAR, TEMPLATE_PITCH_SCALAR } from './constants'
 import { buildEntities, buildScales } from './materials'
 
-const templatePatternMaterial: PatternMaterial = {
+const material: PatternMaterial = {
     buildEntitiesFunction: buildEntities,
     buildScalesFunction: buildScales,
 }
 
-const templatePatternMetadata: PatternMetadata = {
+const metadata: PatternMetadata = {
     description: 'follow this template structure for your patterns',
     formattedName: 'Template Pattern',
     musicalIdeaIllustrated: 'nothing',
 }
 
-const patternSpec: PatternSpec = {
+const spec: PatternSpec = {
     patternDurationOffset: to.Offset(0),
     patternDurationScalar: TEMPLATE_DURATION_SCALAR,
     patternPitchOffset: to.Offset(0),
@@ -23,10 +23,10 @@ const patternSpec: PatternSpec = {
 }
 
 const pattern: Pattern = {
-    material: templatePatternMaterial,
-    metadata: templatePatternMetadata,
+    material,
+    metadata,
     patternId: PatternId.TEMPLATE,
-    spec: patternSpec,
+    spec,
 }
 
 export {
