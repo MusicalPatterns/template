@@ -1,4 +1,7 @@
-export { pattern as templatePattern } from './dist'
+const { pattern: templatePattern } = require('./dist')
+const templateSnapshot = require('./snapshot')
 
-import snapshot from './snapshot'
-export default snapshot
+module.exports = {
+    templatePattern,
+    templateSnapshot,
+}

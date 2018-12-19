@@ -8,18 +8,18 @@ const buildEntities: BuildEntitiesFunction =
             secondPart,
         } = buildParts()
 
-        const exampleOneEntity: Entity = {
+        const firstEntity: Entity = {
             noteSpecs: firstPart,
             timbreName: TimbreNameEnum.SAWTOOTH,
         }
-        const exampleTwoEntity: Entity = {
+        const secondEntity: Entity = {
             noteSpecs: secondPart,
             timbreName: TimbreNameEnum.PIANO,
         }
 
         return [
-            exampleOneEntity,
-            exampleTwoEntity,
+            firstEntity,
+            secondEntity,
         ]
     }
 
