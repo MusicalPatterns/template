@@ -16,7 +16,7 @@ ship:
 	@set -e; pushd ../..; make ship PATTERN="template"; popd
 
 test:
-	@set -e; pushd ../..; make test JASMINE_CONFIG_PATH="src/template/test/jasmine.js" PATTERN_NAME="TEMPLATE"; popd
+	@set -e; pushd ../..; make test JASMINE_CONFIG_PATH="src/template/test/jasmine.js" PATTERN="template"; popd
 
 update:
 	@set -e; pushd ../..; make update PATTERN="template"; popd
