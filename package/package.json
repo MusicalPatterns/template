@@ -1,6 +1,6 @@
 {
   "name": "@musical-patterns/pattern-template",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "index.js",
   "typings": "index.d.ts",
   "license": "MIT",
@@ -9,9 +9,9 @@
     "url": "https://github.com/MusicalPatterns/pattern-template.git"
   },
   "dependencies": {
-    "@musical-patterns/compiler": "^1.0.34",
-    "@musical-patterns/pattern": "^1.0.22",
-    "@musical-patterns/utilities": "^1.0.101"
+    "@musical-patterns/compiler": "^1.0.35",
+    "@musical-patterns/pattern": "^1.0.26",
+    "@musical-patterns/utilities": "^1.0.102"
   },
   "peerDependencies": {
     "@musical-patterns/performer": "^1.0.71"
