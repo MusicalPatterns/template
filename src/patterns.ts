@@ -8,7 +8,7 @@ const material: PatternMaterial = {
 
 const metadata: PatternMetadata = {
     description: '',
-    formattedName: 'Template Pattern',
+    formattedName: 'Template',
     musicalIdeaIllustrated: '',
 }
 
