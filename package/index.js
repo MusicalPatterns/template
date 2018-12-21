@@ -1,7 +1,7 @@
-const { pattern: templatePattern } = require('./dist')
-const templateSnapshot = require('./snapshot')
+const { pattern } = require('./dist')
+const snapshot = require('./snapshot')
 
 module.exports = {
-    templatePattern,
-    templateSnapshot,
+    pattern,
+    snapshot,
 }
