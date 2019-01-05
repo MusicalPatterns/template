@@ -13,8 +13,7 @@ const metadata: PatternMetadata = {
     musicalIdeaIllustrated: '',
 }
 
-const spec: PatternSpec = {
-}
+const spec: PatternSpec = {}
 
 const pattern: Pattern = {
     material,
