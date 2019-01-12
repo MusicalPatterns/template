@@ -11,7 +11,7 @@ const material: PatternMaterial = {
 const metadata: PatternMetadata = {
     description: post,
     formattedName: 'Template',
-    mostRecentPublish: process.env.PUBLISH_DATE,
+    mostRecentPublish: process.env.PUBLISH_DATE || '2018-10-31T07:00:00.000Z',
     musicalIdeaIllustrated: '',
     originalPublish: '2018-10-31T07:00:00.000Z',
 }
