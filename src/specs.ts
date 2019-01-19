@@ -1,19 +1,24 @@
 import {
-    PatternSpec,
     PatternSpecAttributes,
+    PatternSpecData,
     standardInitialPatternSpec,
+    StandardPatternSpec,
     standardPatternSpecAttributes,
 } from '@musical-patterns/pattern'
 
-const initialSpec: PatternSpec = {
+const initial: StandardPatternSpec = {
     ...standardInitialPatternSpec,
 }
 
-const specAttributes: PatternSpecAttributes = {
+const attributes: PatternSpecAttributes<StandardPatternSpec> = {
     ...standardPatternSpecAttributes,
 }
 
+const specData: PatternSpecData<StandardPatternSpec> = {
+    attributes,
+    initial,
+}
+
 export {
-    initialSpec,
-    specAttributes,
+    specData,
 }

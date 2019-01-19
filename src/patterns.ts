@@ -1,8 +1,8 @@
 import { Entity, PatternMaterial, Scale } from '@musical-patterns/compiler'
-import { PatternMetadata } from '@musical-patterns/pattern'
+import { PatternMetadata, StandardPatternSpec } from '@musical-patterns/pattern'
 import { buildPatterns, Pattern, PatternId, Patterns } from '@musical-patterns/registry'
 import { post } from './metadata'
-import { initialSpec, specAttributes } from './specs'
+import { specData } from './specs'
 
 const material: PatternMaterial = {
     buildEntitiesFunction: (): Entity[] => [],
@@ -17,12 +17,11 @@ const metadata: PatternMetadata = {
     originalPublish: '2018-10-31T07:00:00.000Z',
 }
 
-const pattern: Pattern = {
-    initialSpec,
+const pattern: Pattern<StandardPatternSpec> = {
     material,
     metadata,
     patternId: PatternId.TEMPLATE,
-    specAttributes,
+    specData,
 }
 
 const patterns: Patterns = buildPatterns({
