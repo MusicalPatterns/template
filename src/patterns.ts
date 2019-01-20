@@ -1,6 +1,5 @@
 import { Entity, Material, Scale } from '@musical-patterns/compiler'
-import { Metadata, StandardSpec } from '@musical-patterns/pattern'
-import { buildPatterns, Id, PatternFor, Patterns } from '@musical-patterns/registry'
+import { buildPatterns, Id, Metadata, PatternFor, Patterns, StandardSpec } from '@musical-patterns/pattern'
 import { post } from './metadata'
 import { specData } from './specs'
 
