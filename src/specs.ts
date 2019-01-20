@@ -1,6 +1,6 @@
 import {
-    PatternSpecAttributes,
-    PatternSpecData,
+    PatternSpecAttributesFor,
+    PatternSpecDataFor,
     standardInitialPatternSpec,
     StandardPatternSpec,
     standardPatternSpecAttributes,
@@ -10,11 +10,11 @@ const initial: StandardPatternSpec = {
     ...standardInitialPatternSpec,
 }
 
-const attributes: PatternSpecAttributes<StandardPatternSpec> = {
+const attributes: PatternSpecAttributesFor<StandardPatternSpec> = {
     ...standardPatternSpecAttributes,
 }
 
-const specData: PatternSpecData<StandardPatternSpec> = {
+const specData: PatternSpecDataFor<StandardPatternSpec> = {
     attributes,
     initial,
 }
