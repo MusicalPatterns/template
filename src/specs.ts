@@ -1,20 +1,20 @@
 import {
-    PatternSpecAttributesFor,
-    PatternSpecDataFor,
-    standardInitialPatternSpec,
-    StandardPatternSpec,
-    standardPatternSpecAttributes,
+    SpecAttributesFor,
+    SpecDataFor,
+    standardInitialSpec,
+    StandardSpec,
+    standardSpecAttributes,
 } from '@musical-patterns/pattern'
 
-const initial: StandardPatternSpec = {
-    ...standardInitialPatternSpec,
+const initial: StandardSpec = {
+    ...standardInitialSpec,
 }
 
-const attributes: PatternSpecAttributesFor<StandardPatternSpec> = {
-    ...standardPatternSpecAttributes,
+const attributes: SpecAttributesFor<StandardSpec> = {
+    ...standardSpecAttributes,
 }
 
-const specData: PatternSpecDataFor<StandardPatternSpec> = {
+const specData: SpecDataFor<StandardSpec> = {
     attributes,
     initial,
 }
