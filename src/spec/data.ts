@@ -1,6 +1,6 @@
 import {
-    SpecAttributesFor,
-    SpecDataFor,
+    SpecAttributes,
+    SpecData,
     standardInitialSpec,
     StandardSpec,
     standardSpecAttributes,
@@ -10,11 +10,11 @@ const initial: StandardSpec = {
     ...standardInitialSpec,
 }
 
-const attributes: SpecAttributesFor<StandardSpec> = {
+const attributes: SpecAttributes<StandardSpec> = {
     ...standardSpecAttributes,
 }
 
-const specData: SpecDataFor<StandardSpec> = {
+const specData: SpecData<StandardSpec> = {
     attributes,
     initial,
 }
