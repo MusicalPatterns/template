@@ -4,8 +4,8 @@ import { post } from './metadata'
 import { data } from './spec'
 
 const material: Material = {
-    buildEntitiesFunction: (): Entity[] => [],
-    buildScalesFunction: (): Scale[] => [],
+    materializeEntities: (): Entity[] => [],
+    materializeScales: (): Scale[] => [],
 }
 
 const metadata: Metadata = {
