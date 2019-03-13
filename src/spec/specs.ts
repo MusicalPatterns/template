@@ -6,7 +6,7 @@ import {
     StandardSpecs,
 } from '@musical-patterns/pattern'
 
-const initial: StandardSpecs = {
+const initialSpecs: StandardSpecs = {
     ...standardInitialSpecs,
 }
 
@@ -16,7 +16,7 @@ const configurations: Configurations<StandardSpecs> = {
 
 const spec: Spec<StandardSpecs> = {
     configurations,
-    initial,
+    initialSpecs,
 }
 
 export {
