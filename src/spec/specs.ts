@@ -4,7 +4,7 @@ import {
     standardConfigurations,
     standardInitialSpecs,
     StandardSpecs,
-} from '@musical-patterns/pattern'
+} from '@musical-patterns/spec'
 
 const initialSpecs: StandardSpecs = {
     ...standardInitialSpecs,
