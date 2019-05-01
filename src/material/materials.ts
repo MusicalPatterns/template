@@ -1,8 +1,8 @@
-import { Entity, Material, Scale } from '@musical-patterns/material'
+import { Entity, Material, Scales } from '@musical-patterns/material'
 
 const material: Material = {
     materializeEntities: (): Entity[] => [],
-    materializeScales: (): Scale[] => [],
+    materializeScales: (): Scales => ({}),
 }
 
 export {
